@@ -9,16 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        dark: {
-          bg: '#0a0a0a',
-          card: '#141414',
-          hover: '#1e1e1e',
-          border: '#2a2a2a',
+        light: {
+          bg: '#f5f7fa',
+          card: '#ffffff',
+          hover: '#f7fafc',
+          border: '#e2e8f0',
         },
         accent: {
-          primary: '#ffffff',
-          secondary: '#a0a0a0',
-          hover: '#e0e0e0',
+          primary: '#6366f1',
+          secondary: '#818cf8',
+          hover: '#4f46e5',
+          purple: '#7c3aed',
+          pink: '#ec4899',
         },
       },
       animation: {

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "N8n Automation Mastery: From Zero to Hero",
+    "description": "Master n8n workflow automation from scratch. Learn to build powerful automations connecting hundreds of apps without code. Perfect for beginners and professionals.",
+    "category": "AI & Automation",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+    "isPublished": true,
+    "instructor": {
+      "name": "Alex Johnson",
+      "avatar": "https://ui-avatars.com/api/?name=Alex+Johnson&background=6366f1&color=fff"
+    },
+    "duration": 18000,
+    "rating": 4.9,
+    "studentsCount": 1250,
+    "lessons": [
+      {
+        "title": "Introduction to N8n",
+        "description": "Learn what n8n is and why it's powerful for automation",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 600,
+        "order": 1
+      },
+      {
+        "title": "Your First Workflow",
+        "description": "Build your first automation workflow step by step",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 900,
+        "order": 2
+      },
+      {
+        "title": "Advanced Nodes & Logic",
+        "description": "Master complex workflows with conditional logic",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 1200,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "Make.com Pro: Advanced Automation Techniques",
+    "description": "Take your Make (formerly Integromat) skills to the next level. Learn advanced scenarios, error handling, and optimization techniques.",
+    "category": "AI & Automation",
+    "level": "Intermediate",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "isPublished": true,
+    "instructor": {
+      "name": "Sarah Chen",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Chen&background=8b5cf6&color=fff"
+    },
+    "duration": 21600,
+    "rating": 4.8,
+    "studentsCount": 890,
+    "lessons": [
+      {
+        "title": "Make.com Fundamentals",
+        "description": "Understanding scenarios, modules, and connections",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 720,
+        "order": 1
+      },
+      {
+        "title": "Building Complex Scenarios",
+        "description": "Multi-step workflows with routers and filters",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 1080,
+        "order": 2
+      },
+      {
+        "title": "Error Handling & Debugging",
+        "description": "Handle errors gracefully and debug efficiently",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 900,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "Zapier Automation Blueprint",
+    "description": "Complete guide to Zapier automation. Connect your favorite apps and automate repetitive tasks. No coding required!",
+    "category": "AI & Automation",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    "isPublished": true,
+    "instructor": {
+      "name": "Mike Rodriguez",
+      "avatar": "https://ui-avatars.com/api/?name=Mike+Rodriguez&background=ec4899&color=fff"
+    },
+    "duration": 14400,
+    "rating": 4.7,
+    "studentsCount": 2150,
+    "lessons": [
+      {
+        "title": "Getting Started with Zapier",
+        "description": "Learn the basics of Zaps and triggers",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 480,
+        "order": 1
+      },
+      {
+        "title": "Multi-Step Zaps",
+        "description": "Create powerful multi-step automations",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 720,
+        "order": 2
+      },
+      {
+        "title": "Filters and Formatters",
+        "description": "Control workflow logic with filters",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 600,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "AI Tools Integration Masterclass",
+    "description": "Learn to integrate ChatGPT, Midjourney, and other AI tools into your workflows. Automate content creation, image generation, and more.",
+    "category": "AI & Automation",
+    "level": "Intermediate",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "isPublished": true,
+    "instructor": {
+      "name": "Dr. Emily Watson",
+      "avatar": "https://ui-avatars.com/api/?name=Emily+Watson&background=10b981&color=fff"
+    },
+    "duration": 25200,
+    "rating": 4.9,
+    "studentsCount": 1680,
+    "lessons": [
+      {
+        "title": "AI API Basics",
+        "description": "Understanding OpenAI, Anthropic, and other AI APIs",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 840,
+        "order": 1
+      },
+      {
+        "title": "ChatGPT Integration",
+        "description": "Integrate ChatGPT into your automation workflows",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 1020,
+        "order": 2
+      },
+      {
+        "title": "Image AI & More",
+        "description": "Work with Midjourney, DALL-E, and Stable Diffusion",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 960,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "No-Code Business Automation",
+    "description": "Automate your entire business without writing code. Learn to connect CRM, email, analytics, and more using no-code tools.",
+    "category": "Business Automation",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1552664730-d307ca884978",
+    "isPublished": true,
+    "instructor": {
+      "name": "David Kim",
+      "avatar": "https://ui-avatars.com/api/?name=David+Kim&background=f59e0b&color=fff"
+    },
+    "duration": 19800,
+    "rating": 4.8,
+    "studentsCount": 1420,
+    "lessons": [
+      {
+        "title": "Business Automation Strategy",
+        "description": "Plan your automation roadmap",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 660,
+        "order": 1
+      },
+      {
+        "title": "CRM Automation",
+        "description": "Automate lead management and follow-ups",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 900,
+        "order": 2
+      },
+      {
+        "title": "Marketing Automation",
+        "description": "Set up email campaigns and social media automation",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 1080,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "Data Science with No-Code Tools",
+    "description": "Analyze data, create dashboards, and build ML models without coding. Learn to use Airtable, Notion, and visual data tools.",
+    "category": "Data Science",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "isPublished": true,
+    "instructor": {
+      "name": "Lisa Park",
+      "avatar": "https://ui-avatars.com/api/?name=Lisa+Park&background=3b82f6&color=fff"
+    },
+    "duration": 16200,
+    "rating": 4.6,
+    "studentsCount": 980,
+    "lessons": [
+      {
+        "title": "Data Collection Basics",
+        "description": "Set up automated data collection workflows",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 540,
+        "order": 1
+      },
+      {
+        "title": "Visual Analytics",
+        "description": "Create beautiful dashboards without code",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 780,
+        "order": 2
+      },
+      {
+        "title": "No-Code Machine Learning",
+        "description": "Build ML models with visual tools",
+        "videoUrl": "https://www.youtube.com/watch?v=RpjQTGKm-ok",
+        "duration": 960,
+        "order": 3
+      }
+    ]
+  }
+]
+

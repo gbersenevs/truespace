@@ -44,7 +44,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dark-bg">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       <Navbar user={user} />
 
       {/* Hero Section */}
@@ -52,7 +52,7 @@ export default function HomePage() {
         {/* Animated Background */}
         <div className="absolute inset-0 overflow-hidden">
           <motion.div
-            className="absolute -top-1/2 -right-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl"
+            className="absolute -top-1/2 -right-1/4 w-96 h-96 bg-purple-300/30 rounded-full blur-3xl"
             animate={{
               scale: [1, 1.2, 1],
               opacity: [0.3, 0.5, 0.3],
@@ -64,7 +64,7 @@ export default function HomePage() {
             }}
           />
           <motion.div
-            className="absolute -bottom-1/2 -left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl"
+            className="absolute -bottom-1/2 -left-1/4 w-96 h-96 bg-blue-300/30 rounded-full blur-3xl"
             animate={{
               scale: [1.2, 1, 1.2],
               opacity: [0.5, 0.3, 0.5],
@@ -89,12 +89,12 @@ export default function HomePage() {
             </motion.h1>
 
             <motion.p
-              className="text-xl sm:text-2xl text-accent-secondary max-w-3xl mx-auto"
+              className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Master new skills with premium video courses. Learn at your own pace from industry experts.
+              Master AI automation & no-code tools with premium video courses. Learn at your own pace from industry experts.
             </motion.p>
 
             <motion.div
@@ -138,12 +138,12 @@ export default function HomePage() {
                 whileHover={{ scale: 1.05 }}
               >
                 <div className="flex justify-center">
-                  <div className="w-16 h-16 rounded-full bg-dark-card flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-accent-primary shadow-lg flex items-center justify-center">
                     <stat.icon className="w-8 h-8 text-white" />
                   </div>
                 </div>
-                <div className="text-3xl font-bold text-white">{stat.value}</div>
-                <div className="text-accent-secondary">{stat.label}</div>
+                <div className="text-3xl font-bold text-gray-800">{stat.value}</div>
+                <div className="text-gray-600">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>

@@ -39,7 +39,7 @@ export default function Navbar({ user }: NavbarProps) {
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-dark-bg/95 backdrop-blur-lg shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-xl' : 'bg-white/80 backdrop-blur-sm shadow-md'
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -65,8 +65,8 @@ export default function Navbar({ user }: NavbarProps) {
                 href={link.href}
                 className={`flex items-center space-x-2 text-sm font-medium transition-colors ${
                   pathname === link.href
-                    ? 'text-white'
-                    : 'text-accent-secondary hover:text-white'
+                    ? 'text-accent-primary'
+                    : 'text-gray-600 hover:text-accent-primary'
                 }`}
               >
                 <link.icon className="w-4 h-4" />
@@ -78,7 +78,7 @@ export default function Navbar({ user }: NavbarProps) {
           {/* Right Side Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <motion.button
-              className="p-2 rounded-lg hover:bg-dark-card transition-colors"
+              className="p-2 rounded-lg hover:bg-light-hover text-gray-700 transition-colors"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => router.push('/search')}
@@ -89,7 +89,7 @@ export default function Navbar({ user }: NavbarProps) {
             {user ? (
               <Link href="/profile">
                 <motion.div
-                  className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-dark-card hover:bg-dark-hover transition-colors"
+                  className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-light-card hover:bg-light-hover border border-light-border transition-colors text-gray-800"
                   whileHover={{ scale: 1.05 }}
                 >
                   {user.avatar ? (
@@ -99,7 +99,7 @@ export default function Navbar({ user }: NavbarProps) {
                       className="w-8 h-8 rounded-full"
                     />
                   ) : (
-                    <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center font-bold">
+                    <div className="w-8 h-8 rounded-full bg-accent-primary text-white flex items-center justify-center font-bold">
                       {user.name.charAt(0).toUpperCase()}
                     </div>
                   )}
@@ -110,7 +110,7 @@ export default function Navbar({ user }: NavbarProps) {
               <div className="flex items-center space-x-2">
                 <Link href="/login">
                   <motion.button
-                    className="px-4 py-2 text-sm font-medium text-white hover:text-accent-hover transition-colors"
+                    className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-accent-primary transition-colors"
                     whileHover={{ scale: 1.05 }}
                   >
                     Sign In
@@ -118,7 +118,7 @@ export default function Navbar({ user }: NavbarProps) {
                 </Link>
                 <Link href="/register">
                   <motion.button
-                    className="px-4 py-2 text-sm font-medium bg-white text-black rounded-lg hover:bg-gray-200 transition-colors"
+                    className="px-4 py-2 text-sm font-medium bg-accent-primary text-white rounded-lg hover:bg-accent-hover transition-colors shadow-lg"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -147,7 +147,7 @@ export default function Navbar({ user }: NavbarProps) {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            className="md:hidden bg-dark-card border-t border-dark-border"
+            className="md:hidden bg-white border-t border-light-border shadow-lg"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
@@ -160,8 +160,8 @@ export default function Navbar({ user }: NavbarProps) {
                   href={link.href}
                   className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
                     pathname === link.href
-                      ? 'bg-dark-hover text-white'
-                      : 'text-accent-secondary hover:bg-dark-hover hover:text-white'
+                      ? 'bg-accent-primary text-white'
+                      : 'text-gray-700 hover:bg-light-hover'
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -174,14 +174,14 @@ export default function Navbar({ user }: NavbarProps) {
                 <>
                   <Link
                     href="/login"
-                    className="block w-full px-4 py-3 text-center rounded-lg bg-dark-hover hover:bg-white hover:text-black transition-colors"
+                    className="block w-full px-4 py-3 text-center rounded-lg bg-light-hover text-gray-800 hover:bg-light-border transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Sign In
                   </Link>
                   <Link
                     href="/register"
-                    className="block w-full px-4 py-3 text-center rounded-lg bg-white text-black hover:bg-gray-200 transition-colors"
+                    className="block w-full px-4 py-3 text-center rounded-lg bg-accent-primary text-white hover:bg-accent-hover transition-colors shadow-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Sign Up
