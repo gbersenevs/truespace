@@ -2,6 +2,7 @@ services:
   # Web Service (Next.js)
   - type: web
     name: truespace
+    runtime: node
     env: node
     region: oregon
     plan: starter
