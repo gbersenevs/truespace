@@ -138,7 +138,7 @@ export default function PromoCodesPage() {
                       <Input
                         type="number"
                         placeholder="Max Uses (-1 for unlimited)"
-                        value={formData.maxUses}
+                        value={formData.maxUses.toString()}
                         onChange={(e) => setFormData({ ...formData, maxUses: parseInt(e.target.value) })}
                       />
                       <Input
