@@ -29,6 +29,8 @@ async function connectDB() {
   if (!cached.promise) {
     const opts = {
       bufferCommands: false,
+      serverSelectionTimeoutMS: 5000, // Timeout after 5s instead of 30s
+      socketTimeoutMS: 45000,
     };
 
     cached.promise = mongoose.connect(MONGODB_URI, opts);
@@ -36,8 +38,10 @@ async function connectDB() {
 
   try {
     cached.conn = await cached.promise;
+    console.log('✅ MongoDB connected successfully');
   } catch (e) {
     cached.promise = null;
+    console.error('❌ MongoDB connection failed:', e);
     throw e;
   }
 
